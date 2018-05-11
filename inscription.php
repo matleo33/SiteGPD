@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-//Interface basique avec username password
 /* 
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -9,8 +7,7 @@ session_start();
  */
 
 ?>
-<form method="post" action="traiterConnexion.php">
+<form method="post" action="traiterInscription.php">
     <input placeholder="Username" name="username">
     <input placeholder="Password" name="password">
-    <p>Toujours pas inscrit ? <a href="inscription.php">Cliquez ici !</a></p>
 </form>
