@@ -1,5 +1,9 @@
 <?php
-
+?>
+<form method="post" action="disconnect">
+    <input type="submit" value="disconnect">
+</form>
+<?php
 //Afficher liste fonctionnalités disponibles avec points correspondants
 /* 
  * To change this license header, choose License Headers in Project Properties.

@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 
 //Interface basique avec username password
 /* 
@@ -12,5 +12,6 @@ session_start();
 <form method="post" action="traiterConnexion.php">
     <input placeholder="Username" name="username">
     <input placeholder="Password" name="password">
-    <p>Toujours pas inscrit ? <a href="inscription.php">Cliquez ici !</a></p>
+    <input type="submit" value="Sign in" />
 </form>
+<p>Still not signed up ? <a href="inscription.php">Click here !</a></p>

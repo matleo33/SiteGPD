@@ -9,5 +9,6 @@ session_start();
 ?>
 <form method="post" action="traiterInscription.php">
     <input placeholder="Username" name="username">
-    <input placeholder="Password" name="password">
+    <input placeholder="Password" type="password" name="password">
+    <input type="submit" value="Sign up" />
 </form>
