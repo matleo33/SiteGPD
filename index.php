@@ -4,7 +4,7 @@ session_start();
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <link href="./../css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="bootstrap.min.css">
         <title>Site GPD</title>
     </head>
     <body>
